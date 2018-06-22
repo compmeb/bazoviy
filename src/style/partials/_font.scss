@@ -6,6 +6,10 @@
 
 // @include font($name: 'name', $weight: 400, $style: normal); шаблон инструкции для михина
 
+@include font($name: 'PT Sans Narrow', $weight: 400, $style: normal);
+
+@include font($name: 'PT Sans Narrow bold', $weight: 700, $style: normal);
+
 
 
 

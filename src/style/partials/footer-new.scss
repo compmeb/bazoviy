@@ -1,0 +1,32 @@
+.main-footer{
+  color: #ffffff;
+  background-color: #212121;
+  background-image: url("../img/pattern-footer.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+.footer-contact a{
+color: #ffffff;
+text-decoration: underline;
+&:hover,
+&:focus{
+  text-decoration: none;
+}
+}
+.footer-social{
+  text-align: center;
+  ul{
+    list-style: none;
+  }
+}
+.social-button{
+  color: #ffffff;
+}
+.footer-copyright{
+  text-align: center;
+  .button:hover,
+  .button:focus{
+    color: #000000;
+    background-color: #ffffff;
+  }
+}

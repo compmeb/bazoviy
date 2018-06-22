@@ -3,16 +3,26 @@
 */
 @import "partials/variables";
 @import  "partials/font";
+@import  "partials/mixin";
 
 /*
 * Third Party
 */
-@import "../../node_modules/normalize.css/normalize.css";
+@import "../../../node_modules/normalize.css/normalize.css";
 
 /*
 * Custom style
 */
 @import "partials/global";
 @import "partials/header";
+@import "partials/features";
+@import "partials/news";
+@import "partials/gallery";
+@import "partials/appointment";
+@import "partials/footer-new";
+@import "partials/modal";
+
+
+
 
 

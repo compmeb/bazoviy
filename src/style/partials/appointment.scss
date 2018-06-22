@@ -1,0 +1,9 @@
+.appointment-item input {
+  font: inherit;
+
+  background-color: transparent;
+  border: 2px solid #000000;
+  &:focus {
+    border-color: #663d15;
+  }
+}

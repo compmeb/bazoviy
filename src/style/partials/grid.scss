@@ -1,0 +1,99 @@
+html,
+body {
+  min-width: 1122px;
+  min-height: 1750px;
+}
+.main-header {
+  margin-bottom: 75px;
+
+}
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: transparent;
+}
+.main-navigation-wrapper {
+  width: 100%;
+  margin-bottom: 60px;
+
+  background-color: #000000;
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.main-header-logo {
+  order: 2;
+  width: 368px;
+  height: 153px;
+
+}
+.site-navigation {
+  min-width: 620px;
+  margin: 0;
+  padding: 20px;
+  list-style: none;
+
+}
+.user-navigation {
+  min-width: 140px;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+}
+.features{
+  margin-bottom: 80px;
+}
+
+.feature-list{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.feature-item{
+  width: 300px;
+}
+
+.index-columns{
+  padding: 50px 80px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+.contacts{
+  width: 380px;
+}
+.appointment{
+width: 300px;
+}
+.main-footer{
+  margin-top: 65px;
+  padding: 60px 0;
+  .container{
+    display: flex;
+  }
+}
+.footer-contact{
+  margin: 0;
+  width: 320px;
+  margin-right: 80px;
+}
+.footer-copyright{
+  margin: 0;
+  width: 150px;
+  margin-left: auto;
+}
+.footer-social{
+  width: 145px;
+}

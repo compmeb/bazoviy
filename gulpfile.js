@@ -16,7 +16,8 @@ var gulp = require("gulp"),
     run = require("run-sequence"),
     rimraf = require("rimraf"),
     notify = require('gulp-notify'),
-    webserver = require("browser-sync");
+    webserver = require("browser-sync"),
+    csscomb = require("gulp-csscomb");
 
 
 
@@ -102,7 +103,8 @@ gulp.task("css:build", function () {
             cascade: true
         }))
         .pipe(removeComments())
-        .pipe(cssbeautify())
+        // .pipe(cssbeautify())
+        .pipe(csscomb())
         .pipe(gulp.dest(path.build.css))
         .pipe(cssnano())
         .pipe(rename({suffix:'.min', prefix: ''}))
@@ -125,7 +127,7 @@ gulp.task("js:build", function () {
         .pipe(gulp.dest(path.build.js))
         .pipe(webserver.reload({stream: true}));
 });
- 
+
 /* No sourcemaps
 ========================*/
 

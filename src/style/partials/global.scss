@@ -26,10 +26,10 @@ body {
     line-height: 42px;
   }
 }
-// img {
-//   min-width: 100%;
-//   height: auto;
-// }
+img {
+  min-width: 100%;
+  height: auto;
+}
 .visually-hidden {
   @include hidden();
 }

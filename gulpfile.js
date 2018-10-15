@@ -152,7 +152,8 @@ gulp.task("css:final", function () {
             cascade: true
         }))
         .pipe(removeComments())
-        .pipe(cssbeautify())
+        // .pipe(cssbeautify())
+        .pipe(csscomb())
         .pipe(gulp.dest(path.build.css))
         .pipe(cssnano())
         .pipe(rename({suffix:'.min', prefix: ''}))
